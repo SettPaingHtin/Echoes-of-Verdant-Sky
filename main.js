@@ -21,6 +21,7 @@ const config = {
             gravity: { y: 0 }
         }
     },
+    // Canvas size definition
     width: 2560,
     height: 1440,
     scale: {
