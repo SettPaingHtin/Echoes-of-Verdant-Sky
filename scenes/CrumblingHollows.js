@@ -208,7 +208,8 @@ export default class CrumblingHollows extends Phaser.Scene {
         } else {
             body.setGravityY(800);
         }
-
+        
+        // Animation
         if (!body.onFloor()) {
             this.player.setTexture('playerExtra2');
         } else {
